@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Soal Gaess</title>
+
+<style>
+    table, th, td {
+  border: 1px solid;
+}
+.apa{
+    background-color: greenyellow;
+}
+</style>
+</head>
+<body>
+    <h1>Latihan Evaluasi P.Web1</h1>
+    <p>List Kendaraan yang ada di dunia ini:</p>
+
+<ol>
+    <li>MOBIL:</li>
+    <ul>
+        <li>Alpart</li>
+        <li>Avanza</li>
+        <li>Fortuner</li>
+        <li>Civic Aaamiin</li>
+    </ul>
+    <li>MOTOR</li>
+    <ul>
+        <li>Beat</li>
+        <li>Supra X</li>
+        <li>Vario Ember</li>
+        <li>Ninja Hatori</li>
+    </ul>
+</ol>
+
+<table border="1" style="width: 100px;">
+    <tr>
+      <th>T</th>
+      <th>K</th>
+    </tr>
+    <tr>
+      <td id = "a">50</td>
+      <td id = "b">4</td>
+    </tr>
+    <tr>
+      <td>47</td>
+      <td>92</td>
+    </tr>
+  </table><br>
+  <table class="tika" border="2" style="width: 300px;">
+    <tr>
+      <th colspan="2">Nama mahasiswa</th>
+    </tr>
+    <tr>
+        <td>Tika</td>
+        <td>6501045898</td>
+    </tr>
+    <tr>
+      <td rowspan="2">
+      <img src="anggrek.jpg" alt="anggrek.jpg" width="200px">
+    </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="mawar1.jpg" alt="mawar1.jpg" width="200px">
+      </td>
+    </tr>
+    </tr>
+    <tr class="apa">
+        <td>anggrek</td>
+        <td>mawar</td>
+    </tr>
+  </table><br>
+<script>
+    let t = document.getElementById("a").innerHTML;
+    let k = document.getElementById("b").innerHTML;
+    let hasil = (t,k);
+    document.write("Nilai T adalah =" + t,"<br>");
+    document.write("Nilai K adalah =" + k,"<br>");
+
+    function fungsi(t,k){
+        return t + k;
+    }
+    let result = fungsi(50,4);
+
+    function fungsi1(){
+        alert("Hasil t*k=" + result)
+        
+    }
+</script><br>
+<button type="button" onclick="fungsi1()">Hitung</button>
+</body>
+</html>
