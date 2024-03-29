@@ -1,3 +1,7 @@
+NAMA : TIKA KUSWARDANI
+KELAS :TI1B
+NPM : 230102046
+
 Tugas 2 praktek web 1
 
 HTML (Hypertext Markup Language atau HTML adalah bahasa markup standar yang digunakan untuk membuat halaman website dan aplikasi web.)
